@@ -69,15 +69,13 @@ python -m streamlit run streamlit_ui.py
 📷 Screenshots
 
 🔹Resume Upload in Streamlit
-![Upload Resume](C:\project\resume_parser\screenshots\django_admin_jobs.png)
+![Upload Resume](https://github.com/dhanashreedp/resume-matcher-project/blob/main/screenshots/django_admin_jobs.png)
 
 🔹 Matched Jobs Output
-
-![Matched Jobs](C:\project\resume_parser\screenshots\job_matches.png)
+![Matched Jobs](https://github.com/dhanashreedp/resume-matcher-project/blob/main/screenshots/django_admin_jobs.png)
 
 🔹 Django Admin: Job Listings
-
-![Admin Jobs](C:\project\resume_parser\screenshots\django_admin_jobs.png)
+![Admin Jobs](https://github.com/dhanashreedp/resume-matcher-project/blob/main/screenshots/django_admin_jobs.png)
 
 💡 Future Improvements
 🧠 Add skill extraction using BERT / OpenAI Embeddings
