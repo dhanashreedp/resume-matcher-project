@@ -39,46 +39,43 @@ resume-matcher-project/
 
 ---
 
-## 🛠️ Setup Instructions
+🛠️ Setup Instructions
 
-### 🔹 Step 1: Clone Repo
+🔹Step 1: Clone Repo
 
 ```bash
 git clone https://github.com/your-username/resume-matcher-project.git
 cd resume-matcher-project
 
-🔹 Step 2: Set Up Virtual Environment
+🔹Step 2: Set Up Virtual Environment
 python -m venv venv
 venv\Scripts\activate  # on Windows
 
-🔹 Step 3: Install All Requirements
+🔹Step 3: Install All Requirements
 pip install -r requirements.txt
 
-🔹 Step 4: Run Django API
+🔹Step 4: Run Django API
 cd django_admin_project
 python manage.py migrate
 python manage.py runserver
 
-🔹 Step 5: Run Flask Parser API
+🔹Step 5: Run Flask Parser API
 cd flask_api
 python app.py
 
-🔹 Step 6: Run Streamlit Frontend
+🔹Step 6: Run Streamlit Frontend
 python -m streamlit run streamlit_ui.py
 
 📷 Screenshots
-### 🔹 Resume Upload in Streamlit
+
+🔹Resume Upload in Streamlit
 ![Upload Resume](C:\project\resume_parser\screenshots\django_admin_jobs.png)
 
----
-
-### 🔹 Matched Jobs Output
+🔹 Matched Jobs Output
 
 ![Matched Jobs](C:\project\resume_parser\screenshots\job_matches.png)
 
----
-
-### 🔹 Django Admin: Job Listings
+🔹 Django Admin: Job Listings
 
 ![Admin Jobs](C:\project\resume_parser\screenshots\django_admin_jobs.png)
 
