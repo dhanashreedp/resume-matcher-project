@@ -1,0 +1,15 @@
+# === Django + Django REST Framework ===
+Django==5.2.4
+djangorestframework==3.15.1
+
+# === Flask (Microservice for Resume Parsing) ===
+Flask==2.3.2
+requests==2.31.0
+
+# === NLP & PDF Parsing ===
+spacy==3.7.2
+PyMuPDF==1.23.7
+PyPDF2==3.0.1
+
+# === Utility ===
+gunicorn==21.2.0
